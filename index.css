@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background: #f5f6fa;
+    display: flex;
+    flex : 1;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header, footer {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Ajoute ceci pour éviter tout débordement */
+}
+
+main {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+    box-sizing: border-box; /* Ajoute ceci aussi */
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+
+.main {
+    background-color: #4864b1;
+    color: white;
+}
+
+.corps {
+    background-color: #4A919E;
+    color:white;
+    text-align: center;
+}
+
+.feet {
+    background-color: #BED3C3;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
