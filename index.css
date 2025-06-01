@@ -4,15 +4,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
     margin: 0;
     padding: 0;
     background: #f5f6fa;
     display: flex;
     flex : 1;
-    flex-direction: column;
+    flex-direction :column;
     min-height: 100vh;
     overflow-x: hidden;
+    text-align: center;
 }
 
 header, footer {
@@ -39,23 +39,22 @@ section {
 }
 
 .main {
-    background-color: #4864b1;
+    background-color: #344D59;
     color: white;
 }
 
 .corps {
-    background-color: #4A919E;
-    color:white;
+    background-color: #7A90A4;
+    color:black;
     text-align: center;
 }
 
 .feet {
     position: relative;
-    background-color:  #BED3C3;
+    background-color: #B8CBD0;
     color: black;
-    padding: 20px;
     border-radius: 10px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 
@@ -81,7 +80,7 @@ img {
     opacity: 0;
     max-height: 0;
     overflow-y:hidden;
-    transition: opacity 1s ease, max-height 1s ease;
+    transition: opacity 1.5s ease-in, max-height 1.5s ease-in-out;
 }
 
 .feet:hover .info-cachee {
